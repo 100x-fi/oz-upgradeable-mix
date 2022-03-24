@@ -1,9 +1,5 @@
 {
   "solidity.compileUsingRemoteVersion": "v0.8.13+commit.abaa5c0e",
-  "solidity.remappings": [
-    "@openzeppelin=/Users/<YOUR_USERNAME>/.brownie/packages/OpenZeppelin/openzeppelin-contracts@4.5.0",
-    "@openzeppelin/contracts-upgradeable=/Users/<YOUR_USERNAME>/.brownie/packages/OpenZeppelin/openzeppelin-contracts-upgradeable@4.5.2/contracts"
-  ],
   "editor.formatOnSave": true,
   "[solidity]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
