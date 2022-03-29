@@ -2,9 +2,9 @@
 
 pragma solidity 0.8.13;
 
-import { Initializable } from "../OpenZeppelin/openzeppelin-contracts-upgradeable@4.5.2/contracts/proxy/utils/Initializable.sol";
-import { OwnableUpgradeable } from "../OpenZeppelin/openzeppelin-contracts-upgradeable@4.5.2/contracts/access/OwnableUpgradeable.sol";
-import { ERC20Upgradeable } from "../OpenZeppelin/openzeppelin-contracts-upgradeable@4.5.2/contracts/token/ERC20/ERC20Upgradeable.sol";
+import { Initializable } from "../libs/openzeppelin-contracts-upgradeable/contracts/proxy/utils/Initializable.sol";
+import { OwnableUpgradeable } from "../libs/openzeppelin-contracts-upgradeable/contracts/access/OwnableUpgradeable.sol";
+import { ERC20Upgradeable } from "../libs/openzeppelin-contracts-upgradeable/contracts/token/ERC20/ERC20Upgradeable.sol";
 
 contract UpgradeableErc20 is OwnableUpgradeable, ERC20Upgradeable {
   function initialize(string memory _name, string memory _symbol)
